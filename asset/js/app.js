@@ -1,4 +1,4 @@
-function toggleMenu () {  
+/*function toggleMenu () {  
     const navbar = document.querySelector('.navbar');
     const burger = document.querySelector('.burger');
     
@@ -15,11 +15,11 @@ function toggleMenu () {
      
   }
   toggleMenu();
-
+*/
 
 
 //l'horaire
-
+let prepa = document.getElementById("prepa")
 let horaire__prepa = document.getElementById("horaire__prepa");
 let horaire__l1 = document.getElementById("horaire__l1");
 let horaire__l2GL = document.getElementById("horaire__l2GL");
@@ -34,7 +34,7 @@ let horaire__l3TLC = document.getElementById("horaire__l3TLC");
 let horaire__l3DSGN = document.getElementById("horaire__l3DSGN")
 
 
-horaire__prepa.addEventListener('click', function(){
+prepa.addEventListener('click', function(){
   if(horaire__prepa.classList.contains("active")){
     horaire__prepa.classList.remove("active")
   }else{
