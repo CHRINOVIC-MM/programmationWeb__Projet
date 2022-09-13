@@ -233,3 +233,22 @@ l3AS.addEventListener('click', function(){
     horaire__l3AS.classList.add("active")
   }
 })
+
+l3TLC.addEventListener('click', function(){
+  if(horaire__l3TLC.classList.contains("active")){
+    horaire__l3TLC.classList.remove("active")
+  }else{
+    horaire__prepa.classList.remove("active")
+    horaire__l1.classList.remove("active")
+    horaire__l2TLC.classList.remove("active")
+    horaire__l2GL.classList.remove("active")
+    horaire__l2AS.classList.remove("active")
+    horaire__l2MSI.classList.remove("active")
+    horaire__l2DSGN.classList.remove("active")
+    horaire__l3GL.classList.remove("active")
+    horaire__l3MSI.classList.remove("active")
+    horaire__l3AS.classList.remove("active")
+    horaire__l3DSGN.classList.remove("active")
+    horaire__l3TLC.classList.add("active")
+  }
+})
