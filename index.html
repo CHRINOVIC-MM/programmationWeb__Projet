@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Acceuil</title>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+        <img src="./asset/logoImg/logo.png" alt="">
+        <h1>Ecole superieure d'informatique salama</h1>
+    </div>
+
+    <input type="checkbox" id="toggle">
+    <label for="toggle"> <img src="./asset/logoImg/logo.png" alt=" menu"></label>
+
+    <nav class="navigation">
+      <ul>
+        <li><a href="#"><i class="fa fa-house"></i>  Accueil</a></li>
+        <li><a href="#"><i class="fa-brands fa-leanpub"></i>  Education</a>
+          <ul>
+            <li><a href="#">Horaire des cours</a></li>
+            <li><a href="#">Centre d'excelence</a></li>
+            <li><a href="#">Bibliotheque</a></li>
+            <li><a href="#">Publication des resultats</a></li>
+            <li><a href="#">Recours</a></li>
+            <li><a href="#">E-learning</a></li>
+            <li><a href="#">Suivi TFC</a></li>
+            <li><a href="#">Journee Scientifique</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><i class="fa-sharp fa-solid fa-newspaper"></i>  Actualite</a></li>
+        <li><a href="#"><i class="fa-solid fa-users"></i>  A propos de Esis</a></a>
+
+          <ul>
+            <li><a href="#">Presentation</a></li>
+            <li><a href="#">Cursus</a></li>
+            <li><a href="#">Admission</a></li>
+            <li><a href="#">Nous contacter</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="baniere">
+    <div id="carousel" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./asset/bannerImg/banner_principale.jpg" class="d-block w-100" alt="banner1">
+        </div>
+        <div class="carousel-item">
+          <img src="./asset/bannerImg/banner_genie_log.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./asset/bannerImg/banner_reseaux.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./asset/bannerImg/banner_design.png" class="d-block w-100" alt="banner1">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+   </section>
+
+   <section class="actualite">
+    <h1>Actualite</h1>
+    <hr>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel carousel-dark slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="./asset/newsImg/conf.jpg" alt=".">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">PROGRAMME DE LA JOURNEE SCIENTIFIQUE <small>(25/08/2022)</small></h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, sint eos, molestiae quia nobis voluptas officia soluta libero corrupti excepturi alias quisquam esse natus expedita ad tenetur non omnis molestias.</p>
+                <a href="#" class="btn btn-primary">Lire plus <i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="./asset/newsImg/intro.jpg" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">CONFÉRENCE DE L’UNOPS À ESIS <small>(11/07/2022)</small></h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, sint eos, molestiae quia nobis voluptas officia soluta libero corrupti excepturi alias quisquam esse natus expedita ad tenetur non omnis molestias.</p>
+                <a href="#" class="btn btn-primary">Lire plus <i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="./asset/newsImg/jSc.png" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">CONSTRUCTION PREMIER NIVEAU BLOC A <small>(11/07/2022)</small></h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, sint eos, molestiae quia nobis voluptas officia soluta libero corrupti excepturi alias quisquam esse natus expedita ad tenetur non omnis molestias.</p>
+                <a href="#" class="btn btn-primary">Lire plus <i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="./asset/newsImg/jSc.png" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">FÊTE DE MARIE AUXILIATRICE <small>(03/06/2022)</small></h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, sint eos, molestiae quia nobis voluptas officia soluta libero corrupti excepturi alias quisquam esse natus expedita ad tenetur non omnis molestias.</p>
+                <a href="#" class="btn btn-primary">Lire plus <i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="./asset/newsImg/marie.jpeg" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">FÊTE DE MARIE AUXILIATRICE</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, sint eos, molestiae quia nobis voluptas officia soluta libero corrupti excepturi alias quisquam esse natus expedita ad tenetur non omnis molestias.</p>
+                <a href="#" class="btn btn-primary">Lire plus <i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="./asset/newsImg/conf.jpg" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">FÊTE DE MARIE AUXILIATRICE</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, sint eos, molestiae quia nobis voluptas officia soluta libero corrupti excepturi alias quisquam esse natus expedita ad tenetur non omnis molestias.</p>
+                <a href="#" class="btn btn-primary">Lire plus <i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
