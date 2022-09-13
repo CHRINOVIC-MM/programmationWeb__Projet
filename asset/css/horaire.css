@@ -51,6 +51,11 @@ main .horaire{
 main .horaire .horaire__table{
     width: 100%;
     height: 100%;
+    display: none;
+}
+
+main .horaire .horaire__table.active{
+    display: block;
 }
 
 main .horaire .horaire__table table{
