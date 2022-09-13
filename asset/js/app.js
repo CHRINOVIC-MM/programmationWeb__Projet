@@ -21,6 +21,7 @@
 //l'horaire
 let prepa = document.getElementById("prepa");
 let l1 = document.getElementById("l1");
+let l2GL = document.getElementById("l2GL");
 let horaire__prepa = document.getElementById("horaire__prepa");
 let horaire__l1 = document.getElementById("horaire__l1");
 let horaire__l2GL = document.getElementById("horaire__l2GL");
@@ -73,3 +74,21 @@ l1.addEventListener('click', function(){
   }
 })
 
+l2GL.addEventListener('click', function(){
+  if(horaire__l2GL.classList.contains("active")){
+    horaire__l2GL.classList.remove("active")
+  }else{
+    horaire__prepa.classList.remove("active")
+    horaire__l1.classList.remove("active")
+    horaire__l2MSI.classList.remove("active")
+    horaire__l2AS.classList.remove("active")
+    horaire__l2TLC.classList.remove("active")
+    horaire__l2DSGN.classList.remove("active")
+    horaire__l3GL.classList.remove("active")
+    horaire__l3MSI.classList.remove("active")
+    horaire__l3AS.classList.remove("active")
+    horaire__l3TLC.classList.remove("active")
+    horaire__l3DSGN.classList.remove("active")
+    horaire__l2GL.classList.add("active")
+  }
+})
