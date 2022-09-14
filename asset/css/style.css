@@ -122,7 +122,7 @@ hr{
 
 .actualite{
   position: relative;
-  top: 10rem;
+  top: 15rem;
   width: 100%;
   height: 50vh;
   display: flex;
@@ -133,18 +133,8 @@ hr{
 
 .actualite h1{
   font-size: 50px;
-  color: #333;
-  text-decoration: underline;
 }
 
-.cards-wrapper{
-  display: flex;
-  gap: 100px;
-}
-
-.cards{
-  margin: 0 .5rem;
-}
 footer {
   background-color: var(--color-primary);
   position: relative;
