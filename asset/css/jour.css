@@ -1,0 +1,76 @@
+:root {
+    --color-primary: #0d534c;
+    --color-primary-light: #0f635b;
+    --color-primary-dark: #0a423c;
+    --color-white: #c5c5c5;
+}
+
+main{
+    position: relative;
+    top: 6.1rem;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .horaire__list{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0a423c;
+}
+
+main .horaire__list .horaire__item{
+    list-style: none;
+    display: inline-block;
+}
+
+main .horaire__list .horaire__item .horaire__link{
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    transition: all .2s ease;
+}
+
+main .horaire__list .horaire__item .horaire__link:hover{
+    background: var(--color-primary-light);
+}
+
+main .horaire{
+    width: 80%;
+    height: calc(90% - 100px);
+}
+
+main .horaire .horaire__table{
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: all 1s ease-in-out;
+}
+
+main .horaire .horaire__table.active{
+    display: block;
+}
+
+main .horaire .horaire__table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+main .horaire .horaire__table table caption h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+main .horaire .horaire__table table td, main .horaire .horaire__table table th
+{
+    padding: 10px;
+border: 1px solid black;
+}
