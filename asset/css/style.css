@@ -121,36 +121,108 @@ hr{
 }
 
 .actualite{
+  position: relative;
+  top: 15rem;
   width: 100%;
-  height: 70vh;
-  margin-top: 20px;
-}
-.cards-wrapper{
-  width: 100%;
-  height: 90%;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  flex-direction: column;
 }
 
-.card{
-  height: 40%;
-  margin: 0 .5rem;
-  width: calc(100% / 3.5);
+.actualite .cards-wrapper {
+  display: flex;
+  justify-content: center;
 }
-
-
-.image-wrapper{
-  height: 18vw;
-  margin: 0 auto;
-}
-
-.image-wrapper img{
+.card img {
   max-width: 100%;
   max-height: 100%;
 }
-@media(max-width: 950px) {
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+footer {
+  background-color: var(--color-primary);
+  position: relative;
+  top: 30rem;
+}
+footer .services_list {
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 25px auto;
+}
+.service  p {
+  color: #333;
+}
+
+.service  h2{
+  font-size: 25px;
+}
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 2px;
+  width: 100%;
+}
+
+.connect{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.connect p{
+  font-size: 70px;
+}
+
+.connect p .fa-google-plus-g{
+  color: #eb190d;
+}
+
+.connect p .fa-youtube{
+  color: #eb190d;
+}
+
+.fa-facebook{
+  color: rgb(103, 126, 199);
+}
+.footer_text {
+  text-align: center;
+  font-size: 15px;
+  padding: 8px 0;
+}
+.footer_text span {
+  color: #27ae60;
+}
+@media(max-width: 750px) {
   .header label {
     display: initial;
   }
@@ -215,11 +287,22 @@ hr{
     display: block;
   }
 
+  .card img {
+    height: 11em;}
+
   header{
       width: 100%;
     }
   
     header .logo{
       display: none;
+    }
+
+    footer{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
 }
