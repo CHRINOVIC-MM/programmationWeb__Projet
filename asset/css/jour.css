@@ -74,3 +74,8 @@ main .horaire .horaire__table table td, main .horaire .horaire__table table th
     padding: 10px;
 border: 1px solid black;
 }
+
+footer{
+    position: relative;
+    top: 10rem;
+}
