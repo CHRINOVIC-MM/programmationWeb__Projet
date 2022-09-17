@@ -59,19 +59,9 @@ main .horaire .horaire__table.active{
     display: block;
 }
 
-main .horaire .horaire__table table{
-    border-collapse: collapse;
+main .horaire .horaire__table iframe{
     width: 100%;
-}
-
-main .horaire .horaire__table table caption h1{
-    font-size: 30px;
-    text-transform: uppercase;
-}
-
-main .horaire .horaire__table table td, main .horaire .horaire__table table th{
-    padding: 10px;
-    border: 1px solid black;
+    height: 70%;
 }
 
 footer{
@@ -96,17 +86,15 @@ footer{
         width: 100%;
     }
 
-    main .horaire .horaire__table table caption h1, h1{
+    main .horaire .horaire__table  h1{
         font-size: 20px;
     }
 
-    main .horaire .horaire__table table{
+    main .horaire .horaire__table iframe{
         width: 100%;
     }
 
-    main .horaire .horaire__table table td, main .horaire .horaire__table table th{
-        padding: 2px;
-    }
+    
 }
 
 @media(max-width: 990px){
@@ -120,11 +108,11 @@ footer{
         width: 100%;
     }
 
-    main .horaire .horaire__table table caption h1, h1{
+    main .horaire .horaire__table h1{
         font-size: 20px;
     }
 
-    main .horaire .horaire__table table{
+    main .horaire .horaire__table iframe{
         width: 100%;
     }
 } 
