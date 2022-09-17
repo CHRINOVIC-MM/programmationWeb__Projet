@@ -16,8 +16,12 @@ main{
     flex-direction: column;
 }
 
+main h1{
+    text-align: center;
+}
+
 main .horaire__list{
-    width: 80%;
+    width: 97%;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -55,6 +59,11 @@ main .horaire .horaire__table{
     transition: all 1s ease-in-out;
 }
 
+main .horaire .horaire__table h1{
+    text-align: center;
+    font-size: 40px;
+}
+
 main .horaire .horaire__table.active{
     display: block;
 }
@@ -77,6 +86,10 @@ footer{
         width: 100%;
     }
 
+    main h1{
+        text-align: center;
+    }
+
     main .horaire__list .horaire__item .horaire__link{
         font-size: 15px;
         padding: 10px;
@@ -87,7 +100,7 @@ footer{
     }
 
     main .horaire .horaire__table  h1{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     main .horaire .horaire__table iframe{
