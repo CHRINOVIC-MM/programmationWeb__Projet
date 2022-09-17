@@ -276,8 +276,12 @@ hr {
     display: block;
   }
 
+  /* .actualite{
+    top: 48rem;
+  } */
+
   .actualite{
-    top: 4rem;
+    top: 60%;
   }
 
   header{
@@ -294,9 +298,16 @@ hr {
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      top: 90.5rem;
     }
 }
 
+
+@media(max-width: 699px){
+  .actualite{
+    top: 60%;
+  }
+}
 @media(max-width: 999px){
   .header label {
     display: initial;
