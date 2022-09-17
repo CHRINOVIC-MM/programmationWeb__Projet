@@ -275,15 +275,7 @@ hr {
   #toggle:checked ~ .navigation {
     display: block;
   }
-
-  /* .actualite{
-    top: 48rem;
-  } */
-
-  .actualite{
-    top: 60%;
-  }
-
+  
   header{
       width: 100%;
     }
@@ -302,12 +294,6 @@ hr {
     }
 }
 
-
-@media(max-width: 699px){
-  .actualite{
-    top: 60%;
-  }
-}
 @media(max-width: 999px){
   .header label {
     display: initial;
