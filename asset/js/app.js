@@ -1,23 +1,3 @@
-/*function toggleMenu () {  
-    const navbar = document.querySelector('.navbar');
-    const burger = document.querySelector('.burger');
-    
-    burger.addEventListener('click', (e) => {    
-      navbar.classList.toggle('show-nav');
-    });    
-    // bonus
-    const navbarLinks = document.querySelectorAll('.navbar a');
-    navbarLinks.forEach(link => {
-      link.addEventListener('click', (e) => {    
-        navbar.classList.toggle('show-nav');
-      }); 
-    })
-     
-  }
-  toggleMenu();
-*/
-
-
 //l'horaire
 let prepa = document.getElementById("prepa");
 let l1 = document.getElementById("l1");
@@ -274,32 +254,3 @@ l3DSGN.addEventListener('click', function(){
 })
 
 
-var swiper = new Swiper(".slide-content", {
-  slidesPerView: 3,
-  spaceBetween: 25,
-  loop: true,
-  centerSlide: 'true',
-  fade: 'true',
-  grabCursor: 'true',
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-
-  breakpoints:{
-      0: {
-          slidesPerView: 1,
-      },
-      520: {
-          slidesPerView: 2,
-      },
-      950: {
-          slidesPerView: 3,
-      },
-  },
-});
