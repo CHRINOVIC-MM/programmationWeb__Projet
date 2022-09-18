@@ -27,6 +27,10 @@ section h1:hover
     width: max-content;
 }
 
+ul{
+    list-style-type: none;
+}
+
 footer{
     top: 15rem;
 }

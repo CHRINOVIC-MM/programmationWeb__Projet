@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 :root {
-  --color-primary: #0d534c;
+  --color-primary: #3498db;
   --color-primary-light: #0f635b;
   --color-primary-dark: #0a423c;
   --color-white: #c5c5c5;
@@ -294,7 +294,7 @@ hr {
 }
 
 .fa-facebook{
-  color: rgb(103, 126, 199);
+  color: rgb(21, 66, 213);
 }
 .footer_text {
   text-align: center;
@@ -302,7 +302,7 @@ hr {
   padding: 8px 0;
 }
 .footer_text span {
-  color: #27ae60;
+  color: #0d534c;
 }
 
 
