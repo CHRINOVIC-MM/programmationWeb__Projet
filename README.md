@@ -52,12 +52,12 @@ Pour solution nous avons proposes cet alignement
 
 # LISTE DES MEMBRES DU GROUPE GUIDO VAN ROSSUM
 
-## TSHILOBO TSHIAMA Marthinie
-## KAFUTSH KASHAL Premice
-## MUTOKE MUSULE Andres
-## MI-SONG YAMBELA Linda
-## PALUKU MUYUMBU Albert
-## MUKEBA MUKEBA Chrinovic
+### TSHILOBO TSHIAMA Marthinie
+### KAFUTSH KASHAL Premice
+### MUTOKE MUSULE Andres
+### MI-SONG YAMBELA Linda
+### PALUKU MUYUMBU Albert
+### MUKEBA MUKEBA Chrinovic
 
 # Orgnisation du groupe
 
