@@ -48,3 +48,13 @@ Pour nous l'alignement des elements n'est pas beaux pour un site de l'ecole supe
 Pour solution nous avons proposes cet alignement 
 
 <img src="./asset/img/newsImg/solutionAlignement.png">
+
+
+# LISTE DES MEMBRES DU GROUPE GUIDO VAN ROSSUM
+
+## TSHILOBO TSHIAMA Marthinie
+## KAFUTSH KASHAL Premice
+## MUTOKE MUSULE Andres
+## MI-SONG YAMBELA Linda
+## PALUKU MUYUMBU Albert
+## MUKEBA MUKEBA Chrinovic
