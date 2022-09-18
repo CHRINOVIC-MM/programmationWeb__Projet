@@ -1,6 +1,17 @@
-section
+main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 4.2rem;
+}
+
+main section
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
 }
 section h1
 {
@@ -12,4 +23,8 @@ section h1:hover
     color : white;
     background-color:  rgb(4, 48, 85);
     width: max-content;
+}
+
+footer{
+    top: 15rem;
 }
