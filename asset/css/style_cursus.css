@@ -28,3 +28,7 @@ section h1:hover
 footer{
     top: 15rem;
 }
+
+ul{
+    list-style-type: none;
+}
