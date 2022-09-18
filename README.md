@@ -12,7 +12,8 @@ Projet de d√©veloppement web consistant a proposer un design pour le site de l‚Ä
 ## DIFICULTES RENCONTREES
 
 Nous avons rencontrer les difficultees suivantes
-### Certains membres du groupe n'avez pas des PC et d'autres ont boyicottre le travail
+### Certains membres du groupe n'avez pas des PC et d'autres ont boyicotte le travail
+
 ### Le temps du travail
 Nous avons eu peu des tems pour ce travail ce qui ne nous a pas permis de bien le faire et aussi parce que nous preparions en meme temps nos examens de second semestre
 
@@ -71,6 +72,8 @@ Nous n'avons mis que les gens qui ont montres de l'interet pour le travail les a
 # Le site:
 nous avons deployes notre projet sur netlify,
 Si vous etes curieux cliquez<a href="https://propositiondesigneesis.netlify.app/"> ici</a>
+
+En mode responsive nous avons mis le logo de esis comme boutons toogle sur lequel il faut cliquer pour voir le menu
 
 
 # HISTOIRE DE GUIDO VAN ROSSUM
