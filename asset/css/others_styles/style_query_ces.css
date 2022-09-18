@@ -1,0 +1,31 @@
+@media all and (max-width: 1286px)
+{
+    .modules
+    {
+        margin-left: 130px;
+    }   
+}
+@media all and (max-width:1118px)
+{
+    .modules
+    {
+        margin-left: 65px;
+    } 
+
+}
+@media all and (max-width:930px)
+{
+    .modules
+    {
+        margin-left: 65px;
+    } 
+
+}
+@media all and (max-width:800px)
+{
+    .modules
+    {
+        margin-left: 0px;
+    } 
+
+}

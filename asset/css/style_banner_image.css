@@ -1,0 +1,13 @@
+svg
+{
+    width: 25px;
+    position: absolute;
+}
+.precedent
+{
+    left: 0;
+}
+.suivant
+{
+    right: 0;
+}

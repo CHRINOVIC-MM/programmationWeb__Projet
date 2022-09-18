@@ -1,0 +1,15 @@
+section
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section h1
+{
+    color:  rgb(4, 48, 85);
+    background-color: beige;
+}
+section h1:hover
+{
+    color : white;
+    background-color:  rgb(4, 48, 85);
+    width: max-content;
+}

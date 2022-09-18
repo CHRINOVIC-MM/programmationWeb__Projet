@@ -1,0 +1,63 @@
+section
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section h1
+{
+    color:  rgb(4, 48, 85);
+    background-color: beige;
+}
+section h1:hover
+{
+    color : white;
+    background-color:  rgb(4, 48, 85);
+    width: max-content;
+}
+/* DESIGN SUR LES FORMATIONS CCNA IC3 MICROSOFT*/
+.modules
+{
+    margin-left: 260px;
+}
+.modules .header_modules
+{
+    display: inline-block;
+    width: max-content;
+    box-shadow: 3px 3px 3px gray;
+    vertical-align: top;
+    text-align: center;
+    margin: 10px;
+    
+}
+.modules .header_modules ul
+{
+    list-style-type: none;
+    width: max-content;
+
+}
+.modules .header_modules ul li
+{
+    content: normal;
+}
+.modules h3
+{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: darkgrey;
+    color: rgb(10, 9, 9);
+}
+.modules #cisco
+{
+    padding: 5px;
+}
+.modules #microsoft
+{
+    margin-left: 0px;
+
+}
+/* Toutes les footer en ligne bloc*/
+.footer
+{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top ;
+}
