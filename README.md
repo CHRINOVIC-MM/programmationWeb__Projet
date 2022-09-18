@@ -58,3 +58,9 @@ Pour solution nous avons proposes cet alignement
 ## MI-SONG YAMBELA Linda
 ## PALUKU MUYUMBU Albert
 ## MUKEBA MUKEBA Chrinovic
+
+# Orgnisation du groupe
+
+### MUTOKE MUSULE Andres : Chef du groupe
+### TSHILOBO TSHIAMA Marthinie : Chef du groupe Adjointe
+### MI-SONG YAMBELA Linda : Rapporteuse
