@@ -64,3 +64,8 @@ Pour solution nous avons proposes cet alignement
 ### MUTOKE MUSULE Andres : Chef du groupe
 ### TSHILOBO TSHIAMA Marthinie : Chef du groupe Adjointe
 ### MI-SONG YAMBELA Linda : Rapporteuse
+
+
+# Le site:
+nous avons deployes notre projet sur netlify,
+Si vous etes curieux cliquez<a href="https://propositiondesigneesis.netlify.app/"> ici</a>
