@@ -42,3 +42,9 @@ Nous avons proposes un footer qui reste coller au bas de l'ecran meme au scroll
 Pour nous l'alignement des elements n'est pas beaux pour un site de l'ecole superieure d'informatique salama
 
 <img src="./asset/img/newsImg/alignementDefaut.png">
+
+### solution 
+
+Pour solution nous avons proposes cet alignement 
+
+<img src="./asset/img/newsImg/solutionAlignement.png">
