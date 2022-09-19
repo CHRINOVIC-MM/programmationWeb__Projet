@@ -54,6 +54,8 @@ Pour solution nous avons proposes cet alignement
 # LISTE DES MEMBRES DU GROUPE GUIDO VAN ROSSUM
 
 Nous n'avons mis que les gens qui ont montres de l'interet pour le travail les autres nous ne les avons pas vu pour le travail
+
+## MEMBRES ACTIFS
 ### TSHILOBO TSHIAMA Marthinie
 ### KAFUTSH KASHAL Premice
 ### MUTOKE MUSULE Andres
@@ -61,6 +63,9 @@ Nous n'avons mis que les gens qui ont montres de l'interet pour le travail les a
 ### PALUKU MUYUMBU Albert
 ### KINY NAZIRI Michael
 ### MUKEBA MUKEBA Chrinovic
+
+
+## MEMBRES INACTIFS
 
 # Orgnisation du groupe
 
