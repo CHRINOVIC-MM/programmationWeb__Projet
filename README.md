@@ -64,14 +64,14 @@ Nous n'avons mis que les gens qui ont montres de l'interet pour le travail les a
 
 # Orgnisation du groupe
 
-### MUTOKE MUSULE Andres : Chef du groupe
-### TSHILOBO TSHIAMA Marthinie : Chef du groupe Adjointe
+### MUKEBA MUKEBA Chrinovic : Chef du groupe
+### MUTOKE MUSULE Andres : Chef du groupe Adjointe
 ### MI-SONG YAMBELA Linda : Rapporteuse
 
 
 # Le site:
 nous avons deployes notre projet sur netlify,
-Si vous etes curieux cliquez<a href="https://propositiondesigneesis.netlify.app/"> ici</a>
+Si vous etes curieux cliquez<a href="https://propositiondesigneesis.netlify.app/" target="_blank"> ici</a>
 
 En mode responsive nous avons mis le logo de esis comme boutons toogle sur lequel il faut cliquer pour voir le menu
 
